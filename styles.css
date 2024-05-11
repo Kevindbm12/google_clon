@@ -1,0 +1,172 @@
+* {
+    /* acterisco aplica la conf a todo el documento */
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+
+.navbar {
+    display: flex;
+    height: 48px;
+    padding: 8px;
+    align-items: center;
+    justify-content: end;
+    color: #4a4a4a;
+    font-size: 13px;
+}
+
+.navbar__elements {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar_ul {
+    display: flex;
+    justify-content: center;
+    padding-right: 15px;
+
+}
+
+.navbar__li {
+    padding-left: 15px;
+    list-style: none;
+}
+
+.navbar__li:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.navbar__media {
+    display: flex;
+    align-items: center;
+    /* Alinea los elementos verticalmente */
+    justify-content: center;
+    /* Alinea los elementos horizontalmente */
+}
+ .navbar_ball {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+ }
+
+.navbar__menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 48px;
+    height: 48px;
+}
+.navbar_ball:hover {
+    background-color: #f0f0f0;
+   border-radius: 50%;
+}
+.navbar__imagemenu {
+    fill: #5f6368;
+    width: 24px;
+    height: 24px;
+}
+
+.navbar__profile {
+    border-radius: 50%;
+    width: 37px;
+    height: 37px;
+    background-image: url("../assets/img/circle.svg"), url("https://lh3.googleusercontent.com/ogw/AF2bZyiPnxteRe1QCIk-3GloMLJzmG0Oz1bPAi27o7GRPjCFEUk=s32-c-mo");
+    background-position: center;
+    background-size: contain, cover;
+}
+
+
+/*__________________________ sección Main: Contenedor Principal ____________________________*/
+main {
+    display: flex;
+    /* cuando se usa esta propiedad la forma de alineación vertical y horizontal se invierte */
+    flex-direction: column;
+    /* alinea los elementos horizontalmente */
+    align-items: center;
+    /* Alinea los elementos verticalmente */
+}
+
+.main__logo {
+    width: 272px;
+    height: 200px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.main__search {
+    width: 561px;
+    height: 44px;
+    padding: 1px 1px;
+    box-shadow: 0 2px 6px 0 #20212447;
+    border-radius: 50px;
+    display: grid;
+    grid-template-columns: 52px 422px 41px 41px;
+    grid-template-rows: 44px;
+    justify-items: center;
+    align-items: center;
+}
+
+.main__input {
+    width: 422px;
+    height: 42px;
+    border: none;
+    outline: none;
+}
+
+.main__img {
+    cursor: pointer;
+}
+
+.main__img--icons {
+    width: 24px;
+    height: 24px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.conteiner{
+    display: inline-flex;
+    flex-wrap: wrap;
+    height: 42px;
+    padding: 42px;
+    align-items: center;
+    justify-content: center;
+    color: #4a4a4a;
+    font-size: 13px;
+}
+.title__icon {
+    margin-right: 55px;
+}
+.title__icon img {
+    width: 29px;
+    height: 29px; 
+    border-radius: 50%; 
+    border: 10px solid #f0f0f0; 
+}
+
+
+.conteiner2{
+    display: inline-flex;
+    flex-wrap: wrap;
+    height: 42px;
+    padding: 42px;
+    align-items: center;
+    justify-content: center;
+    color: #4a4a4a;
+    font-size: 13px;
+}
+.title__icon {
+    margin-right: 55px;
+}
+.title__icon img {
+    width: 29px;
+    height: 29px; 
+    border-radius: 50%; 
+    border: 10px solid #f0f0f0; 
+}
